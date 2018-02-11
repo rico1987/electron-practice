@@ -45,8 +45,7 @@ app.on('ready', async () => {
   mainWindow = new BrowserWindow({
     show: false,
     width: 1024,
-    height: 728,
-    frame: false
+    height: 728
   });
   if (process.env.NODE_ENV === 'development') {
     mainWindow.webContents.openDevTools();
